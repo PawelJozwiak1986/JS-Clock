@@ -11,4 +11,15 @@
   background: rgb(177, 186, 189);
   margin: 0 auto;
   border-radius: 50%;
+  position: relative;
+}
+.inner__clock{
+  position:absolute;
+  border-radius: 50%;
+  height: 210px;
+  width: 210px;
+  background: rgb(231, 234, 245);;
+  top: -4%;
+  left: 7%;
+  margin: -150px 0px 0px -150px;
 }
