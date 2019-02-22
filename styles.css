@@ -65,17 +65,9 @@
 .seconds__hand{
   background: #000;
   height: 40%;
-  left: 48.75%;
+  left: 49.75%;
   position: absolute;
-  top: 15%;
+  top: 17%;
   transform-origin: 50% 80%;
   width: 1%
 }
-@keyframes rotate { 100% { transform: rotateZ(360deg); } }
-
-  .hours-container { 
-    animation: rotate 43200s infinite linear; };
-  .minutes-container { 
-    animation: rotate 3600s infinite linear; };
-  .seconds-container {
-     animation: rotate 60s infinite linear; };
