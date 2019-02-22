@@ -20,6 +20,8 @@
   width: 10px;
   background: black;
   border-radius: 50%; 
+  top:47%;
+  left:48%;
 
 }
 .inner__clock{
@@ -42,7 +44,7 @@
   left: 0;
 }
 
-.hour__hand{
+.hours__hand{
   background: #000;
   height: 20%;
   left: 48.75%;
